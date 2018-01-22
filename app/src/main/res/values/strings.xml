@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">WebtebApp</string>
+
+    <string name="OK">موافق</string>
+
+    <string name="RETRY">إعادة المحاولة</string>
+
+    <string name="CANCEL">إلغاء</string>
+
+    <string name="NO_INTERNET_CONNECTION">لا يوجد اتصال بالإنترنت</string>
+
+    <string name="NO_INTERNET_CONNECTION_DESC">يبدو أن هناك مشكلة في الإتصال بالانترنت، يرجى فحص الشبكة ثم إعادة المحاولة</string>
+
+    <string name="DOT">●</string>
+
+    <string name="COMPANY">الشركة</string>
+
+    <string name="DRUG_NAME_EN">Drug name</string>
+
+    <string name="DRUG_NAME_AR">اسم الدواء</string>
+
+    <string name="RELATED_ITEMS_TITLE">مواضيع ذات علاقة</string>
+
+</resources>

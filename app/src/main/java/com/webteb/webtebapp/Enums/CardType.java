@@ -1,0 +1,11 @@
+package com.webteb.webtebapp.Enums;
+
+/**
+ * Created by khalid on 1/20/18.
+ */
+
+public enum CardType {
+
+    HRADER_IMAGE_CARD, FIELDS_CARD, HTML_CARD, IMAGE_CARD,
+    INSTRUCTIONS_CARD, COMMERCIAL_NAME_CARD, EMPTY, INSTRUCTION_ITEM, COMMERCIAL_NAME_ITEM, RELATED_ITEM, RELATED_ITEMS_CARD
+}

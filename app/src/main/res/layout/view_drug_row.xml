@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="drug"
+            type="com.webteb.webtebapp.Models.CommercialNameItem" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@{drug.backgroundColor}"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/companyName"
+                style="@style/DrugColumn"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/drugItemHeight"
+                android:layout_weight="1"
+                android:text="@{drug.company}" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="@dimen/drugItemHeight"
+                android:background="@color/GRAY" />
+
+            <TextView
+                android:id="@+id/englishName"
+                style="@style/DrugColumn"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/drugItemHeight"
+                android:layout_weight="1"
+                android:text="@{drug.englishName}" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="@dimen/drugItemHeight"
+                android:background="@color/GRAY" />
+
+            <TextView
+                android:id="@+id/name"
+                style="@style/DrugColumn"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/drugItemHeight"
+                android:layout_weight="1"
+                android:text="@{drug.name}" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/GRAY" />
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="relatedItem"
+            type="com.webteb.webtebapp.Models.RelatedItemModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_corners_gray"
+        >
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@color/BLACK"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/minus"
+            android:layout_alignRight="@+id/minus"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
+        <ImageView
+            android:id="@+id/minus"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@drawable/ic_remove_circle"
+            android:layout_marginLeft="2dp"
+            android:tint="@color/WHITE"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            style="@style/InstructionBodyStyle"
+            android:text="الخط"
+            />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@color/BLACK"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/plus"
+            android:layout_alignRight="@+id/plus"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/plus"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:src="@drawable/ic_add_circle"
+            android:layout_marginRight="2dp"
+            android:tint="@color/WHITE"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+</layout>

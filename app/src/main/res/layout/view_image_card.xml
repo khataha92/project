@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="data"
+            type="com.webteb.webtebapp.Models.ImageCardDataModel"/>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/headerImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/headerImage"
+            android:layout_alignTop="@+id/headerImage"
+            android:background="@drawable/gradient" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/ImageCardTitleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/headerImage"
+            android:gravity="center_vertical|right"
+            android:text="@{data.title}"
+            android:textColor="@color/WHITE" />
+
+    </RelativeLayout>
+
+</layout>

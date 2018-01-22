@@ -1,0 +1,68 @@
+{
+  "CommercialNames": [
+    {
+      "ID": 749,
+      "Name": "اتوبوسيد ايبوي",
+      "EnglishName": "ETOPOSID \"EBEWE\" 200MG VIAL",
+      "Company": "EBEWE PHARMA",
+      "CompanyLogo": null,
+      "CompanyUrl": "http://www.sandoz.com/our_products/oncology_injectables/redirect.shtml"
+    },
+    {
+      "ID": 755,
+      "Name": "ايتوبوسيد ",
+      "EnglishName": "ETOPOSID \"EBEWE\" 50 MG VIAL",
+      "Company": "EBEWE PHARMA",
+      "CompanyLogo": null,
+      "CompanyUrl": "http://www.sandoz.com/our_products/oncology_injectables/redirect.shtml"
+    },
+    {
+      "ID": 751,
+      "Name": "ايتوبوسيد ايبوي",
+      "EnglishName": "ETOPOSID \"EBEWE\" 20MG-ML VIAL",
+      "Company": "EBEWE PHARMA",
+      "CompanyLogo": null,
+      "CompanyUrl": "http://www.sandoz.com/our_products/oncology_injectables/redirect.shtml"
+    },
+    {
+      "ID": 568,
+      "Name": "فيبسيد ",
+      "EnglishName": "VEPESID 100MG\\5ML AMP",
+      "Company": "BRISTOL CARIBBEAN",
+      "CompanyLogo": null,
+      "CompanyUrl": "http://www.bms.com/"
+    },
+    {
+      "ID": 1519,
+      "Name": "فيبسيد",
+      "EnglishName": "VEPESID 100MG CAPSULE",
+      "Company": "BRISTOL-MYERS SQUIBB",
+      "CompanyLogo": null,
+      "CompanyUrl": "http://www.bms.com/pages/default.aspx"
+    },
+    {
+      "ID": 581,
+      "Name": "فيبيسيد ",
+      "EnglishName": "VEPESID AMP 100MG-5ML FOR INFUSION",
+      "Company": "BRISTOL-MYERS SQUIBB",
+      "CompanyLogo": null,
+      "CompanyUrl": "http://www.bms.com/pages/default.aspx"
+    },
+    {
+      "ID": 1528,
+      "Name": "لاستيت ",
+      "EnglishName": "LASTET 100MG AMP FOR INFUSION",
+      "Company": "NIPPON KAYAKU",
+      "CompanyLogo": null,
+      "CompanyUrl": "http://www.nipponkayaku.co.jp/english/"
+    }
+  ],
+  "ID": 387,
+  "Name": "ايتوبوسيد",
+  "EnglishName": "Etoposide",
+  "ImageUrl": null,
+  "AlternateName": "",
+  "AlternateName2": "",
+  "Keywords": [],
+  "IsPopular": false
+}

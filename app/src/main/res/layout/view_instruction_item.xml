@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="instruction"
+            type="com.webteb.webtebapp.Models.InstructionItemModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dot"
+            style="@style/DotStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/DOT" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/InstructionTitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/dot"
+            android:layout_alignTop="@+id/dot"
+            android:layout_toLeftOf="@+id/dot"
+            android:layout_alignParentLeft="true"
+            android:text="@{instruction.title}"
+            />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/InstructionBodyStyle"
+            android:layout_below="@+id/dot"
+            android:text="@{instruction.body}"
+            />
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+    </data>
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.webteb.webtebapp.Activities.MainActivity">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/cardsList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottomView"
+             />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/GRAY"
+            android:layout_above="@+id/bottomView" />
+
+        <LinearLayout
+            android:id="@+id/bottomView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/drugItemHeight"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:gravity="right|center_vertical"
+            >
+
+            <com.webteb.webtebapp.CustomComponents.PlusMinusComponent
+                android:id="@+id/plusMinus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="relatedItem"
+            type="com.webteb.webtebapp.Models.RelatedItemModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/image"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:scaleType="centerCrop"
+            app:riv_border_color="@color/GRAY"
+            app:riv_corner_radius="10dp"
+            app:riv_mutate_background="true"
+            />
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/DescriptionStyle"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@{relatedItem.title}"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+</layout>
