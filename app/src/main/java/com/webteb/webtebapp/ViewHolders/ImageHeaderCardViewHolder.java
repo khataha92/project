@@ -33,7 +33,7 @@ public class ImageHeaderCardViewHolder extends BaseCardViewHolder {
 
     public void bind(ViewImageCardBinding dataBinding) {
 
-        ImageCardDataModel dataModel = (ImageCardDataModel) cardModel.getCardValue();
+        ImageCardDataModel dataModel = cardModel.getCardValue();
 
         dataBinding.setData(dataModel);
 

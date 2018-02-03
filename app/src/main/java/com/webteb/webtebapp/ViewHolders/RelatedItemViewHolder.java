@@ -36,53 +36,11 @@ public class RelatedItemViewHolder extends BaseCardViewHolder {
 
     private void bind(final ViewRelatedItemBinding dataBinding) {
 
-        final RelatedItemModel relatedItemModel = (RelatedItemModel) cardModel.getCardValue();
+        final RelatedItemModel relatedItemModel = cardModel.getCardValue();
 
         dataBinding.setRelatedItem(relatedItemModel);
 
         Picasso.with(ThisApp.getContext()).load(relatedItemModel.getImageUrl()).into(dataBinding.image);
-
-        UIUtils.runOnNonUiThread(new Runnable() {
-            @Override
-            public void run() {
-
-                try {
-
-//                    final Bitmap bitmap = UIUtils.getRoundedCornerBitmap(bmp, 20);
-//
-//                    UIUtils.runOnUiThread(new Runnable() {
-//                        @Override
-//                        public void run() {
-//
-//                            dataBinding.image.setImageBitmap(bitmap);
-//
-//                            dataBinding.image.setDrawingCacheEnabled(true);
-//
-//                            dataBinding.image.measure(View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
-//                                    View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED));
-//
-//                            dataBinding.image.layout(0, 0, dataBinding.image.getMeasuredWidth(), dataBinding.image.getMeasuredHeight());
-//
-//                            dataBinding.image.buildDrawingCache(false);
-//
-//                            Bitmap bitmap = Bitmap.createBitmap(dataBinding.image.getDrawingCache());
-//
-//                            dataBinding.image.setDrawingCacheEnabled(false);
-//
-//                            Bitmap finalBitmap = UIUtils.getRoundedCornerBitmap(bitmap, 20);
-//
-//                            dataBinding.image.setImageBitmap(finalBitmap);
-//
-//                        }
-//                    });
-
-                } catch (Exception e) {
-
-                    e.printStackTrace();
-                }
-
-            }
-        });
 
     }
 }

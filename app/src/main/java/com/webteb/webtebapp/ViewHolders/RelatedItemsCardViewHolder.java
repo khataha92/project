@@ -39,7 +39,7 @@ public class RelatedItemsCardViewHolder extends BaseCardViewHolder {
 
     public void bind(ViewRelatedItemsCardBinding dataBinding) {
 
-        List<RelatedItemModel> relatedItemModels = (List<RelatedItemModel>) cardModel.getCardValue();
+        List<RelatedItemModel> relatedItemModels = cardModel.getCardValue();
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(ThisApp.getContext());
 

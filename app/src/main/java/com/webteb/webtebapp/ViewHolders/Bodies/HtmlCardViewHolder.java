@@ -36,7 +36,7 @@ public class HtmlCardViewHolder extends BaseCardViewHolder implements Observer{
 
     private void bind(ViewHtmlItemBinding dataBinding) {
 
-        String html = String.valueOf(cardModel.getCardValue());
+        String html = cardModel.getCardValue();
 
         dataBinding.webView.loadData(html, MIME_TYPE, ENCODING);
 

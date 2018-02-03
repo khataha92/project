@@ -29,7 +29,7 @@ public class DrugItemViewHolder extends BaseCardViewHolder {
 
     private void bind(ViewDrugRowBinding dataBinding) {
 
-        CommercialNameItem commercialNameItem = (CommercialNameItem) cardModel.getCardValue();
+        CommercialNameItem commercialNameItem = cardModel.getCardValue();
 
         dataBinding.setDrug(commercialNameItem);
 

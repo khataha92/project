@@ -40,7 +40,7 @@ public class FieldsCardViewHolder extends BaseCardViewHolder {
 
     public void bind(ViewFieldItemBinding dataBinding) {
 
-        FieldModel dataModel = (FieldModel) cardModel.getCardValue();
+        FieldModel dataModel = cardModel.getCardValue();
 
         FieldItemModel fieldItemModel = new FieldItemModel();
 

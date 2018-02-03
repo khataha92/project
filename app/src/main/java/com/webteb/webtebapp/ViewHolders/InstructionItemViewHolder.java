@@ -28,7 +28,7 @@ public class InstructionItemViewHolder extends BaseCardViewHolder {
 
     private void bind(ViewInstructionItemBinding dataBinding) {
 
-        InstructionItemModel instruction = (InstructionItemModel) cardModel.getCardValue();
+        InstructionItemModel instruction = cardModel.getCardValue();
 
         dataBinding.setInstruction(instruction);
 

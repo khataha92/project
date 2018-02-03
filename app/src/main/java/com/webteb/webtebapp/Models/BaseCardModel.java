@@ -31,9 +31,9 @@ public class BaseCardModel implements Serializable {
 
     }
 
-    public Object getCardValue() {
+    public <T> T getCardValue() {
 
-        return cardValue;
+        return (T) cardValue;
 
     }
 
